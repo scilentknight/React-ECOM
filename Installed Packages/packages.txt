@@ -1,0 +1,8 @@
+1.	npm i react-router-dom - to enable different routing
+2.	npm i react-hot-toast - to show some notification on frontend
+3.	npm i tailwindcss @tailwindcss/vite - to use tailwind in our project
+4.	npm i axios - to use axios in our project while api calling
+5.	npm i jodit-react - it is a kind of editor which we use in our product module
+6.	npm i moment - to manipulate date
+7.	npm i react-hook-form - to apply validations in our form
+8.	npm i react-icons --save - to use react icons in our project (library)
