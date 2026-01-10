@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="lg:pr-20">
           <Link>
             <span className="text-3xl text-white font-bold">X</span>
-            <span className="text-3xl text-slate-800 font-bold">ECOMM</span>
+            <span className="text-3xl text-slate-800 font-bold">ECOM</span>
           </Link>
           <p className="text-gray-800 mt-2">Your destination for everyday fashion essentials.</p>
         </div>

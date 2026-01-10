@@ -36,9 +36,9 @@ const Latestproducts = () => {
     {
       id: 5,
       name: "Dummy Product 5",
-      price: 1900,
+      price: 1800,
       image: ProductImage2,
-      crossPrice: 2900,
+      crossPrice: 2800,
     },
   ];
   return (

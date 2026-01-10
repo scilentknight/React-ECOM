@@ -1,19 +1,16 @@
 import React from "react";
-import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
 import Hero from "../components/Hero";
 import FeaturedProducts from "../components/FeaturedProducts";
 import Latestproducts from "../components/Latestproducts";
+import Layout from "../components/layouts/Layout";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <Hero />
       <FeaturedProducts />
       <Latestproducts />
-      <Footer />
-    </>
+    </Layout>
   );
 };
 
