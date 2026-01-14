@@ -88,7 +88,7 @@ const Shop = () => {
           <div className="grid grid-cols-12 gap-5">
 
             {/* Sidebar */}
-            <div className=" col-span-12 lg:col-span-2 pb-5">
+            <div className="col-span-12 lg:col-span-2 pb-5">
 
               <div className="flex justify-between items-center mb-3 border-b border-gray-200 pb-3">
                 <span className="text-2xl font-bold">Filters</span>
@@ -153,14 +153,14 @@ const Shop = () => {
               </div>
               <div className="flex items-center space-x-2 mb-1">
                 <input type="radio" className="w-4 h-4 border border-gray-400" />
-                <span>Above Rs.500</span>
+                <span>Above Rs.5000</span>
               </div>
 
             </div>
 
             {/* products */}
             <div className="col-span-12 lg:col-span-10">
-              <div className="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+              <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 mb-10">
                 {products &&
                   products.map((product) => {
                     return (
