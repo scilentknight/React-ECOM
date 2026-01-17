@@ -8,7 +8,7 @@ import ProductImg from "../assets/product1.jpg";
 const Cart = () => {
   return (
     <Layout>
-      {/* Breadcumb */}
+      {/* Breadcrumb */}
       <div className="max-w-360 lg:px-8 px-5 mx-auto py-5">
         <div className="flex gap-x-1 items-center text-sm">
           <Link>Home</Link>
@@ -74,7 +74,7 @@ const Cart = () => {
                 <div className="text-gray-800">Rs.2000</div>
               </div>
               <div className="flex pt-5">
-                <Link className="bg-green-400 px-5 py-2.5 w-full text-center text-md rounded-md text-gray-800 hover:bg-gray-900 hover:text-white">Proceed To Checkout</Link>
+                <Link to={"/checkout"} className="bg-green-400 px-5 py-2.5 w-full text-center text-md rounded-md text-gray-800 hover:bg-gray-900 hover:text-white">Proceed To Checkout</Link>
               </div>
             </div>
           </div>
